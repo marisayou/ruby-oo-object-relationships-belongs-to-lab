@@ -5,7 +5,4 @@ class Author
         @name = name
     end
 
-    def add_post(title)
-        return Post.new(title, self)
-    end
 end
